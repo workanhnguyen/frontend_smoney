@@ -1,13 +1,8 @@
-import React from 'react';
-
-import { BottomNav, Navbar } from '../components';
+import React from 'react'
 
 const HomePage = () => {
   return (
-    <div className='relative h-screen'>
-        <Navbar />
-        <BottomNav />
-    </div>
+    <div>HomePage</div>
   )
 }
 

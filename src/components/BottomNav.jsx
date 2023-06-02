@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import BottomNavigation from "@mui/material/BottomNavigation";
 import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 
@@ -23,9 +23,9 @@ export default function SimpleBottomNavigation() {
       onChange={(event, newValue) => {
         handleNavbarChange(newValue);
       }}
-      className="absolute left-0 right-0 bottom-0"
+      className="fixed left-0 right-0 bottom-0"
     >
-      <BottomNavigationAction 
+      <BottomNavigationAction
         value="home" 
         label="Home" 
         icon={<HomeIcon />}

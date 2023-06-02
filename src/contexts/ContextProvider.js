@@ -14,8 +14,6 @@ export const ContextProvider = ({ children }) => {
 
   const handleNavbarChange = (itemClicked) => setNavItemClicked({ ...initialNavbarState, [itemClicked]: true });
 
-  console.log(navItemClicked);
-
   return (
     <StateContext.Provider
       value={{
